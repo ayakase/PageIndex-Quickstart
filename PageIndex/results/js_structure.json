@@ -1,0 +1,223 @@
+{
+  "doc_name": "js.pdf",
+  "structure": [
+    {
+      "title": "T\u1ed4NG QUAN V\u1ec0 JAVASCRIPT",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "Gi\u1edbi Thi\u1ec7u",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0001",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript. It provides an overview of JavaScript, including its introduction, history, and purpose as a scripting language for creating dynamic and interactive web pages. The document explains how JavaScript differs from Java, its object-based nature, and its lack of support for object-oriented features like classes and inheritance. It also details methods for embedding JavaScript into HTML files, such as using `<SCRIPT>` tags, external JavaScript files, inline expressions, and event handlers. Practical examples and resources for learning JavaScript are also mentioned."
+        },
+        {
+          "title": "Nh\u00fang JavaScript v\u00e0o trang Web",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0002",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript. It provides an overview of JavaScript, including its introduction, history, and distinction from Java. The document explains JavaScript as a scripting language embedded in HTML files, interpreted by browsers, and object-based but not fully object-oriented. It also details methods for embedding JavaScript into HTML files, such as using `<SCRIPT>` tags, external JavaScript files, expressions as HTML attribute values, and event handlers. Examples and resources for learning JavaScript are also mentioned."
+        },
+        {
+          "title": "C\u00e1c l\u1ec7nh c\u01a1 b\u1ea3n",
+          "start_index": 1,
+          "end_index": 2,
+          "node_id": "0003",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript. It covers the following main points:\n\n1. **Overview of JavaScript**: Introduction to JavaScript, its origin, and its distinction from Java. It explains JavaScript as a scripting language embedded in HTML, interpreted by browsers, and its object-based nature.\n\n2. **Embedding JavaScript in HTML**: Methods to include JavaScript in web pages, such as using `<SCRIPT>` tags, external JavaScript files, inline expressions, and event handlers. It emphasizes the use of `<SCRIPT>` tags and external files as common practices.\n\n3. **Basic JavaScript Syntax**: Explanation of JavaScript syntax, including statements, operators, expressions, and method calls. Examples include using `document.write()` and `document.writeln()` for displaying text on the client screen, with distinctions between the two methods.\n\n4. **Special Characters and Formatting**: Usage of special characters like `\\n` (newline) and `\\t` (tab) in strings, and the importance of using `<PRE>` tags for preformatted text when working with special characters or `writeln()`.\n\nThe document includes examples and references to practical applications, such as creating web pages with embedded or external JavaScript."
+        }
+      ],
+      "node_id": "0000",
+      "summary": "The partial document is a lecture on web design focusing on JavaScript. It provides an overview of JavaScript, including its introduction, history, and distinction from Java. It explains JavaScript as a scripting language embedded in HTML files, interpreted by browsers, and object-based but not fully object-oriented. The document also details methods for embedding JavaScript into HTML files, such as using `<SCRIPT>` tags, external JavaScript files, expressions as HTML attribute values, and event handlers. It emphasizes the common use of `<SCRIPT>` tags and external files, providing syntax and examples for embedding JavaScript directly into web pages."
+    },
+    {
+      "title": "S\u1eed d\u1ee5ng File ngu\u1ed3n JavaScript",
+      "start_index": 2,
+      "end_index": 3,
+      "node_id": "0004",
+      "summary": "The partial document is a lecture on web design focusing on JavaScript scripting language. It covers the following main points:\n\n1. **Using External JavaScript Files**: Explains the advantages of using external JavaScript files over embedding scripts directly in HTML, the syntax for linking external files, and examples of usage.\n\n2. **Basic JavaScript Commands**: Introduces basic syntax, including statements, operators, expressions, and method calls. Examples include using `document.write()` and `document.writeln()` for displaying text on the client screen, with explanations of their differences.\n\n3. **Alert Dialog Box**: Describes the `alert()` method for displaying notification messages to users, its syntax, and common use cases such as invalid input or unavailable services.\n\n4. **Prompt Dialog Box**: Explains the `prompt()` method for user interaction, allowing data input through a dialog box. It includes syntax and examples of capturing user input and displaying personalized messages.\n\nThe document provides practical examples and code snippets for each topic to illustrate their implementation in web development."
+    },
+    {
+      "title": "Hi\u1ec3n th\u1ecb h\u1ed9p tho\u1ea1i th\u00f4ng b\u00e1o \u2013 L\u1ec7nh alert()",
+      "start_index": 3,
+      "end_index": 3,
+      "node_id": "0005",
+      "summary": "The partial document is a lesson on JavaScript scripting language, specifically focusing on user interaction through dialog boxes. It covers:\n\n1. The `alert()` function: Used to display a notification box with a message and an OK button. Examples include notifying invalid form input, calculation errors, or unavailable services. A sample implementation is provided.\n\n2. The `prompt()` function: Used to display a dialog box with a message, an input field, and OK/Cancel buttons. It allows users to input data, which can then be processed. A sample implementation demonstrates asking for a user's name and displaying a personalized greeting."
+    },
+    {
+      "title": "Giao ti\u1ebfp v\u1edbi ng\u01b0\u1eddi s\u1eed d\u1ee5ng \u2013 L\u1ec7nh prompt()",
+      "start_index": 3,
+      "end_index": 4,
+      "node_id": "0006",
+      "summary": "The partial document is a lecture on web design focusing on JavaScript scripting language. It covers the following main points:\n\n1. **Alert Box (alert()):** Explains the syntax and usage of the `alert()` function to display notification boxes. Common use cases include invalid form input, calculation errors, or unavailable services. An example is provided to demonstrate its implementation.\n\n2. **Prompt Box (prompt()):** Describes the `prompt()` function for user interaction, allowing users to input data via a dialog box. The syntax and an example are provided, showcasing how to ask for a user's name and display a personalized greeting.\n\n3. **Confirmation Box (confirm()):** Details the `confirm()` function to create dialog boxes with OK and Cancel options for user confirmation. It explains its use in decision-making scenarios and provides an example where users confirm access to a website."
+    },
+    {
+      "title": "H\u1ecfi \u0111\u00e1p ng\u01b0\u1eddi s\u1eed d\u1ee5ng \u2013 L\u1ec7nh confirm()",
+      "start_index": 4,
+      "end_index": 5,
+      "node_id": "0007",
+      "summary": "The partial document is a lecture on web design focusing on JavaScript. It covers the use of the `confirm()` function for user interaction, including syntax and examples. The document also introduces JavaScript variables, their scope (global and local), and data types. It explains JavaScript's loosely-typed nature and provides examples of integer, floating-point, and other data types. The content includes practical examples and code snippets to illustrate concepts."
+    },
+    {
+      "title": "NG\u00d4N NG\u1eee K\u1ecaCH B\u1ea2N JAVASCRIPT",
+      "start_index": 5,
+      "end_index": 5,
+      "nodes": [
+        {
+          "title": "Bi\u1ebfn",
+          "start_index": 5,
+          "end_index": 5,
+          "node_id": "0009",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript as a scripting language. It covers key topics such as variables and their declaration, data types, statements and blocks, operators and expressions, programming structures, arrays, and functions. The document explains the concept of variables, including global and local scope, and highlights JavaScript's loosely-typed nature, where data types are dynamically determined. It also introduces JavaScript's data types, including integers (with different numeral systems), floating-point numbers, and provides examples of their usage in code."
+        },
+        {
+          "title": "Ki\u1ec3u d\u1eef li\u1ec7u",
+          "start_index": 5,
+          "end_index": 6,
+          "node_id": "0010",
+          "summary": "The partial document is a lecture on JavaScript scripting language, covering key topics such as variables and their declaration, data types, statements and blocks, operators and expressions, programming structures, arrays, and functions. It explains the concept of variables, their scope (global and local), and JavaScript's loosely-typed nature. The document details JavaScript's data types, including integer, floating-point, boolean, and string, with examples. It also describes the syntax and structure of statements and blocks, the use of operators and expressions (arithmetic, string, logical, and conditional expressions), and provides examples for better understanding."
+        },
+        {
+          "title": "L\u1ec7nh, kh\u1ed1i l\u1ec7nh",
+          "start_index": 6,
+          "end_index": 6,
+          "node_id": "0011",
+          "summary": "The partial document is a lecture on web design, specifically focusing on JavaScript. It covers the following main points:\n\n1. **Boolean Type**: Explanation of the Boolean data type, which represents two conditions: true or false.\n2. **String Type**: Description of the String data type, how strings are represented using quotes, and how to include special characters like double quotes within strings.\n3. **Statements and Blocks in JavaScript**: Explanation of JavaScript statements ending with semicolons and the concept of blocks, which are groups of statements enclosed in curly braces. Nested blocks are also discussed.\n4. **Operators and Expressions in JavaScript**: Definition and classification of expressions into arithmetic, string, and logical types. Conditional expressions using the ternary operator are also explained with examples."
+        },
+        {
+          "title": "To\u00e1n t\u1eed v\u00e0 bi\u1ec3u th\u1ee9c",
+          "start_index": 6,
+          "end_index": 7,
+          "node_id": "0012",
+          "summary": "The partial document is a lecture on JavaScript scripting language, covering key topics such as:\n\n1. **Boolean Type**: Explanation of the Boolean data type with values `true` and `false`.\n2. **String Type**: Description of string data type, usage of quotes, and examples of string representation.\n3. **Statements and Blocks**: Overview of JavaScript statements ending with semicolons and block structures enclosed in curly braces `{}`.\n4. **Operators and Expressions**: Definition and classification of expressions (arithmetic, string, logical) and conditional expressions using the ternary operator.\n5. **Operators**: Explanation of various operators, including assignment, comparison, arithmetic, string concatenation, logical, and increment/decrement operators.\n6. **Programming Structures**: Introduction to branching (conditional) and looping structures in JavaScript.\n7. **Conditional Structures**: Syntax and example of `if-else` statements, including a practical example using `prompt()` and `confirm()` for user interaction in a web page."
+        },
+        {
+          "title": "C\u1ea5u tr\u00fac l\u1eadp tr\u00ecnh",
+          "start_index": 7,
+          "end_index": 9,
+          "node_id": "0013",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript. It covers the following main points:\n\n1. **Operators in JavaScript**: Explanation of different types of operators such as assignment, comparison, arithmetic, string, and logical operators, along with their syntax and usage.\n\n2. **Programming Structures**:\n   - **Conditional Statements**: Introduction to `if-else` statements with syntax and examples, including the use of `confirm()` and `prompt()` methods.\n   - **Loops**:\n     - **For Loop**: Syntax and example of iterating a block of code with initialization, condition, and increment expressions.\n     - **While Loop**: Syntax and example of executing a block of code as long as a condition is true.\n   - **Control Statements**:\n     - **Break**: Used to exit a loop prematurely.\n     - **Continue**: Skips the current iteration and moves to the next iteration of the loop.\n\n3. **Arrays in JavaScript**: Explanation of creating and initializing arrays using custom functions, with examples of assigning and accessing array elements."
+        },
+        {
+          "title": "M\u1ea3ng",
+          "start_index": 9,
+          "end_index": 10,
+          "node_id": "0014",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript. It covers the following main points:\n\n1. **Break Statement**: Explanation of the `break` statement used to terminate loops (`for` or `while`) and its syntax, with an example demonstrating its use.\n\n2. **Continue Statement**: Explanation of the `continue` statement for controlling loop execution, its syntax, and an example showing how it skips iterations in a loop.\n\n3. **Arrays**: Introduction to arrays in JavaScript, including creating arrays using a custom function, initializing arrays with default values, and assigning values to array elements. An example demonstrates array usage in an HTML document.\n\n4. **Functions**: Overview of functions in JavaScript, including their purpose, syntax, parameters, return values, and their use as object methods. An example demonstrates defining and using a function in an HTML document."
+        },
+        {
+          "title": "H\u00e0m",
+          "start_index": 10,
+          "end_index": 13,
+          "node_id": "0015",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript as a scripting language. It covers the following main points:\n\n1. **Functions in JavaScript**:\n   - Introduction to functions, their purpose, and usage in programming.\n   - Syntax for defining functions and examples of creating and using functions.\n   - Explanation of parameters, return values, and functions as object methods.\n\n2. **Built-in JavaScript Functions**:\n   - Overview of built-in functions like `eval`, `parseInt`, and `parseFloat`.\n   - Detailed explanation and examples of each function:\n     - `eval`: Converts string expressions into numerical values.\n     - `parseInt`: Converts a string to an integer with an optional radix.\n     - `parseFloat`: Converts a string to a floating-point number.\n\n3. **Objects and Events in JavaScript**:\n   - Introduction to object-oriented concepts in JavaScript.\n   - Explanation of object hierarchy and properties.\n   - Examples of object manipulation and event handling.\n   - Use of the `for...in` loop to iterate over object properties.\n\n4. **Practical Examples**:\n   - Code snippets demonstrating the use of functions, built-in methods, and object manipulation.\n   - Examples include mathematical operations, type conversions, and event handling in forms."
+        }
+      ],
+      "node_id": "0008",
+      "summary": "The partial document is a lecture on web design focusing on JavaScript as a scripting language. It covers key topics such as variables and their declaration, data types, statements and blocks, operators and expressions, programming structures, arrays, and functions. The document explains the concept of variables, including global and local scope, and highlights JavaScript's loosely-typed nature, where data types are automatically converted. It also details JavaScript's data types, including integers (with different numeral systems), floating-point numbers, and provides examples of their usage in code."
+    },
+    {
+      "title": "\u0110\u1ed0I T\u01af\u1ee2NG & S\u1ef0 KI\u1ec6N",
+      "start_index": 13,
+      "end_index": 13,
+      "nodes": [
+        {
+          "title": "\u0110\u1ed1i t\u01b0\u1ee3ng v\u00e0 thao t\u00e1c tr\u00ean \u0111\u1ed1i t\u01b0\u1ee3ng",
+          "start_index": 13,
+          "end_index": 15,
+          "node_id": "0017",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript as a scripting language. It covers the following main points:\n\n1. **Objects and Events**:\n   - Introduction to JavaScript as an object-based programming language.\n   - Explanation of objects, their hierarchy, and properties in JavaScript.\n   - Examples of object manipulation, such as accessing and modifying object properties.\n\n2. **Object Manipulation**:\n   - Use of the `for...in` loop to iterate through object properties.\n   - Explanation and examples of creating new objects using the `new` keyword.\n   - Use of the `this` keyword to reference the current object.\n   - The `with` statement for setting a default object for a group of statements.\n\n3. **Event Handling**:\n   - Overview of JavaScript as an event-driven language.\n   - Explanation of event handlers and their implementation in HTML elements.\n   - Example of an event handler to validate user input in a form.\n\n4. **Code Examples**:\n   - Demonstrations of object creation, property access, and event handling through practical examples, including form validation and object property iteration."
+        },
+        {
+          "title": "S\u1ef1 ki\u1ec7n v\u00e0 x\u1eed l\u00fd s\u1ef1 ki\u1ec7n",
+          "start_index": 15,
+          "end_index": 16,
+          "node_id": "0018",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript as a scripting language. It covers the following main points:\n\n1. **Events and Event Handling in JavaScript**:\n   - Explanation of events and how JavaScript, as an event-driven language, reacts to events like mouse clicks.\n   - Introduction to event handlers, which are code or functions executed in response to specific events.\n   - Example of an event handler to validate user input in a form.\n\n2. **Common JavaScript Events**:\n   - Description of various events such as `onBlur`, `onClick`, `onChange`, `onFocus`, `onLoad`, `onMouseOver`, `onSelect`, `onSubmit`, and `onUnload`.\n   - Explanation of when these events occur and their use cases.\n\n3. **Predefined Events for Specific Objects**:\n   - List of objects (e.g., Selection list, Text, Textarea, Button, Checkbox, Radio button, Hypertext link, etc.) and their associated events.\n   - Example of using `onLoad` and `onUnload` events in a webpage.\n\n4. **Commonly Used Objects in JavaScript**:\n   - Introduction to the `window` object as the top-level object.\n   - Explanation of its properties such as `defaultStatus`, `frames`, and `length`, which provide information about the browser window and its frames."
+        },
+        {
+          "title": "C\u00e1c \u0111\u1ed1i t\u01b0\u1ee3ng th\u01b0\u1eddng d\u00f9ng",
+          "start_index": 16,
+          "end_index": 17,
+          "nodes": [
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng c\u1eeda s\u1ed5",
+              "start_index": 17,
+              "end_index": 17,
+              "node_id": "0020",
+              "summary": "The partial document is a lecture on web design, specifically focusing on JavaScript scripting language. It covers the following main points:\n\n1. **Window Object**: Explanation of properties like `name`, `parent`, `self`, `status`, `top`, and `window`, along with methods such as `alert()`, `clearTimeout()`, `close()`, `confirm()`, `open()`, `prompt()`, and `setTimeout()`. Examples are provided, including opening and closing new browser windows and loading files into them.\n\n2. **Forms Object**: Discussion on forms created using `<FORM>` tags, including elements like buttons, checkboxes, passwords, radio buttons, reset, select, submit, text, and text areas. Attributes such as `action`, `elements`, `encoding`, `length`, `method`, and `target` are explained."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng forms",
+              "start_index": 17,
+              "end_index": 25,
+              "node_id": "0021",
+              "summary": "The partial document is a lecture on web design focusing on JavaScript scripting language. It covers the following main points:\n\n1. **Window Object**: Explanation of properties (e.g., `name`, `parent`, `self`, `status`, `top`, `window`) and methods (e.g., `alert()`, `clearTimeout()`, `close()`, `confirm()`, `open()`, `prompt()`, `setTimeout()`).\n\n2. **Forms and Form Elements**: Detailed discussion on creating forms using `<FORM>` tags, form elements (e.g., `Button`, `Checkbox`, `Password`, `Radio`, `Reset`, `Select`, `Submit`, `Text`, `Textarea`), their attributes (e.g., `action`, `elements`, `encoding`, `length`, `method`, `target`), and methods (e.g., `submit()`).\n\n3. **Form Element Types**: Explanation of specific form elements like:\n   - `Button`: Custom buttons with `onClick` events.\n   - `Checkbox`: Toggle options with attributes like `checked`, `defaultChecked`.\n   - `FileUpload`: Upload files using `<INPUT TYPE=\"file\">`.\n   - `Hidden`: Hidden fields for storing data.\n   - `Password`: Secure input fields displaying asterisks.\n   - `Radio`: Grouped options allowing single selection.\n   - `Reset`: Reset form values.\n   - `Select`: Dropdown or multi-select lists with `<SELECT>` and `<OPTION>` tags.\n   - `Submit`: Submit form data to a specified URL.\n   - `Text`: Single-line text input fields.\n   - `Textarea`: Multi-line text input fields.\n\n4. **Date Object**: Overview of JavaScript's `Date` object, its methods for retrieving and setting date/time values (e.g., `getDate()`, `getDay()`, `getHours()`, `setDate()`, `setYear()`, `toGMTString()`, `toLocaleString()`), and handling time zones.\n\n5. **Examples**: Practical examples for implementing and using the discussed elements and methods, including HTML and JavaScript code snippets for buttons, checkboxes, radio buttons, dropdowns, and date manipulation."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng Date",
+              "start_index": 25,
+              "end_index": 26,
+              "node_id": "0022",
+              "summary": "The partial document is a lecture on web design focusing on JavaScript. It covers the following main points:\n\n1. **Form Objects**: Explanation of accessing form elements using the `elements[]` array and direct references like `document.testform.one`. Examples are provided to demonstrate usage.\n\n2. **Date Object**: Detailed discussion on the JavaScript `Date` object, its methods for handling dates and times (e.g., `getDate()`, `getDay()`, `getHours()`, `setYear()`, etc.), and examples of creating and manipulating date and time values.\n\n3. **Math Object**: Overview of the `Math` object in JavaScript, including its properties (e.g., `PI`, `E`, `LN2`) and its use for mathematical and trigonometric calculations.\n\n4. **Example Implementation**: A practical example of using the `Date` object to display the current date and time in a formatted manner, including day, month, year, and time with AM/PM distinction."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng Math",
+              "start_index": 26,
+              "end_index": 27,
+              "node_id": "0023",
+              "summary": "The partial document is a lecture on JavaScript scripting language, covering the following main points:\n\n1. **Date and Time Manipulation**: Explanation of the `Date.UTC` method and an example script to display the current date and time in a formatted manner, including day, month, year, hours, minutes, and AM/PM designation.\n\n2. **Math Object**: Overview of the `Math` object in JavaScript, including its properties (e.g., constants like `PI`, `E`, `LN2`) and methods for mathematical operations (e.g., `Math.abs`, `Math.ceil`, `Math.floor`, `Math.random`, `Math.sqrt`, etc.).\n\n3. **String Object**: Introduction to the `String` object in JavaScript, detailing various methods for string manipulation, such as `str.bold()`, `str.charAt()`, `str.indexOf()`, `str.substring()`, `str.toLowerCase()`, and others for formatting and searching within strings."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng String",
+              "start_index": 27,
+              "end_index": 28,
+              "node_id": "0024",
+              "summary": "The partial document is a lecture on JavaScript as part of a web design course. It covers the following main points:\n\n1. **Math Object Methods**: Detailed explanation of various mathematical methods in JavaScript, such as `Math.abs`, `Math.acos`, `Math.asin`, `Math.atan`, `Math.ceil`, `Math.cos`, `Math.exp`, `Math.floor`, `Math.log`, `Math.max`, `Math.min`, `Math.pow`, `Math.random`, `Math.round`, `Math.sin`, `Math.sqrt`, and `Math.tan`.\n\n2. **String Object Methods**: Overview of methods for manipulating strings, including `str.anchor`, `str.big`, `str.blink`, `str.bold`, `str.charAt`, `str.fixed`, `str.fontcolor`, `str.fontsize`, `str.indexOf`, `str.italics`, `str.lastIndexOf`, `str.link`, `str.small`, `str.strike`, `str.sub`, `str.substring`, `str.sup`, `str.toLowerCase`, and `str.toUpperCase`.\n\n3. **History Object**: Explanation of the `history` object, its attributes (e.g., `length`), and methods like `history.back`, `history.forward`, and `history.go`.\n\n4. **Links Object**: Description of the `links` object, its attributes for handling URLs in hyperlinks, such as `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, `search`, and `target`.\n\n5. **Location Object**: Details about the `location` object, which maintains information about the current document's URL, including attributes like `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, and `search`.\n\n6. **Navigator Object**: Information about the `navigator` object, which provides details about the browser, including attributes like `appCodeName` and `appName`. The object does not include methods or events."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng history",
+              "start_index": 28,
+              "end_index": 28,
+              "node_id": "0025",
+              "summary": "The partial document is a lecture on web design, specifically focusing on JavaScript scripting language. It covers the following main points:\n\n1. **String Manipulation**: Explanation of the `str.toUpperCase()` method to convert strings to uppercase.\n\n2. **History Object**: Details about the `history` object, which stores information about previously visited URLs. It includes attributes like `length` (number of URLs) and methods such as `history.back()`, `history.forward()`, and `history.go()` for navigating through the URL history.\n\n3. **Links Object**: Description of the `links` object, which represents hyperlinks in a document. It includes attributes for handling URL components like `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, `search`, and `target`.\n\n4. **Location Object**: Explanation of the `location` object, which maintains information about the current document's URL. Attributes include `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, and `search`.\n\n5. **Navigator Object**: Overview of the `navigator` object, which provides information about the browser, such as version and internal code name. It includes attributes like `appCodeName` and `appName` but does not have methods or events."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng links",
+              "start_index": 28,
+              "end_index": 28,
+              "node_id": "0026",
+              "summary": "The partial document is a lecture on web design, specifically focusing on JavaScript scripting language. It covers the following main points:\n\n1. **String Manipulation**: Explanation of the `str.toUpperCase()` method to convert strings to uppercase.\n\n2. **History Object**: Details about the `history` object, which stores information about previously visited URLs. It includes attributes like `length` (number of URLs) and methods such as `history.back()`, `history.forward()`, and `history.go()` for navigating through the URL history.\n\n3. **Links Object**: Description of the `links` object, which represents hyperlinks in a document. It includes attributes for handling URL components like `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, `search`, and `target`.\n\n4. **Location Object**: Explanation of the `location` object, which maintains information about the current document's URL. Attributes include `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, and `search`.\n\n5. **Navigator Object**: Overview of the `navigator` object, which provides information about the browser, such as version and name. Attributes include `appCodeName` (internal code name) and `appName` (browser name). The object does not have methods or events."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng location",
+              "start_index": 28,
+              "end_index": 28,
+              "node_id": "0027",
+              "summary": "The partial document is a lecture on web design, specifically focusing on JavaScript scripting language. It covers the following main points:\n\n1. **String Manipulation**: Explanation of the `str.toUpperCase()` method to convert strings to uppercase.\n\n2. **History Object**: Details about the `history` object, which stores information about previously visited URLs. It includes attributes like `length` (number of URLs) and methods such as `history.back()`, `history.forward()`, and `history.go()` for navigating through the URL history.\n\n3. **Links Object**: Description of the `links` object, which represents hyperlinks in a document. It includes attributes like `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, `search`, and `target` for handling URL-related information.\n\n4. **Location Object**: Explanation of the `location` object, which maintains information about the current document's URL. Attributes include `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, and `search`.\n\n5. **Navigator Object**: Overview of the `navigator` object, which provides information about the browser, such as version and internal code name. It includes attributes like `appCodeName` and `appName` but does not have methods or events."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng Navigator",
+              "start_index": 28,
+              "end_index": 29,
+              "node_id": "0028",
+              "summary": "The partial document is a lecture on web design focusing on JavaScript. It covers the following main points:\n\n1. **String Manipulation**: Explanation of the `str.toUpperCase()` method to convert strings to uppercase.\n2. **History Object**: Details about the `history` object, its attributes (e.g., `length`), and methods (`history.back()`, `history.forward()`, `history.go()`), which manage browser navigation history.\n3. **Links Object**: Description of the `links` object, its attributes (e.g., `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, `search`, `target`), and its role in handling hyperlinks.\n4. **Location Object**: Explanation of the `location` object, its attributes (e.g., `hash`, `host`, `hostname`, `href`, `pathname`, `port`, `protocol`, `search`), and its use in managing the current document's URL.\n5. **Navigator Object**: Overview of the `navigator` object, its attributes (e.g., `appCodeName`, `appName`, `appVersion`, `userAgent`), and its role in providing browser-related information.\n6. **Document Object**: Details about the `document` object, its attributes (e.g., `alinkColor`, `anchor`, `bgColor`, `cookie`, `fgColor`, `forms`, `lastModified`, `linkColor`, `links`, `location`, `referrer`, `title`, `vlinkColor`), and methods (`document.clear()`, `document.close()`, `document.open()`, `document.write()`, `document.writeln()`), which manage the current document's content and structure.\n7. **Conclusion**: Recommendations for further learning resources, such as \"Teach Yourself JavaScript in 14 Days\" and the Netscape website, emphasizing the evolving nature of JavaScript."
+            },
+            {
+              "title": "\u0110\u1ed1i t\u01b0\u1ee3ng document",
+              "start_index": 29,
+              "end_index": 29,
+              "node_id": "0029",
+              "summary": "The partial document is a lecture on web design, specifically focusing on JavaScript as a scripting language. It covers the following main points:\n\n1. **Navigator Object**: Information about the version and user-agent header of the navigator object.\n2. **Document Object**: Details about the current document, created using `<BODY>` and `</BODY>` tags, along with associated attributes and methods:\n   - Attributes: `alinkColor`, `anchor`, `bgColor`, `cookie`, `fgColor`, `forms`, `lastModified`, `linkColor`, `links`, `location`, `referrer`, `title`, `vlinkColor`.\n   - Methods: `document.clear`, `document.close`, `document.open`, `document.write`, `document.writeln`.\n3. **Conclusion**: Recommendations for further learning resources, such as \"Teach Yourself JavaScript in 14 Days\" and \"JavaScript Guide,\" and advice to refer to Netscape's website for the latest updates on JavaScript."
+            }
+          ],
+          "node_id": "0019",
+          "summary": "The partial document is a lecture on web design focusing on JavaScript scripting language. It covers:\n\n1. **JavaScript Events**: Explanation of various events such as `onBlur`, `onClick`, `onChange`, `onFocus`, `onLoad`, `onMouseOver`, `onSelect`, `onSubmit`, and `onUnload`, detailing when they occur and their use cases.\n\n2. **Predefined Events for Objects**: Lists events associated with specific objects like `Selection list`, `Text`, `Textarea`, `Button`, `Checkbox`, `Radio button`, `Hypertext link`, `Clickable Imagemap area`, `Reset button`, `Submit button`, `Document`, `Window`, `Framesets`, `Form`, and `Image`.\n\n3. **Examples of Event Usage**: Provides examples of event handling in HTML, such as using `onLoad` and `onUnload` to display alerts when a page is loaded or closed.\n\n4. **Commonly Used Objects**:\n   - **Window Object**: Describes its properties (e.g., `defaultStatus`, `frames`, `length`, `name`, `parent`, `self`, `status`, `top`, `window`) and methods (e.g., `alert`, `clearTimeout`, `close`, `confirm`, `open`, `prompt`, `setTimeout`).\n   - **Forms Object**: Explains the creation of forms using `<FORM>` tags and details its elements (e.g., `Button`, `Checkbox`, `Password`, `Radio`, `Reset`, `Select`, `Submit`, `Text`, `Textarea`) and properties (e.g., `action`, `elements`, `encoding`, `length`, `method`, `target`).\n\n5. **Code Examples**: Includes sample HTML code demonstrating the use of the `Window` and `Forms` objects, such as opening and closing windows and handling form submissions."
+        }
+      ],
+      "node_id": "0016",
+      "summary": "The partial document is a lecture on web design, specifically focusing on JavaScript as a scripting language. It covers the concepts of objects and events, including object manipulation and event handling. Key points include the object-oriented nature of JavaScript (though not fully object-oriented), the hierarchical structure of objects, and examples of object properties and event handling in forms. It also introduces the \"For...in\" statement for iterating through object properties and lists common objects used in JavaScript, such as Window, Document, Form, and various input elements."
+    }
+  ]
+}
